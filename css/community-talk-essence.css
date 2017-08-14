@@ -1,0 +1,142 @@
+.main {
+  font-size: 14px;
+  color: #666666; }
+  .main .main-left {
+    width: 798px;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 215px;
+    margin-top: 20px; }
+    .main .main-left .title {
+      width: auto;
+      height: 35px;
+      line-height: 35px;
+      padding-left: 20px;
+      background: #ededf9; }
+    .main .main-left .content {
+      height: 560px; }
+      .main .main-left .content .msg1 .img, .main .main-left .content .msg2 .img, .main .main-left .content .msg3 .img {
+        width: 32px;
+        height: 32px;
+        margin: 10px;
+        border-radius: 50%;
+        background: url(../images/chat1.png); }
+      .main .main-left .content .msg1 .name, .main .main-left .content .msg2 .name, .main .main-left .content .msg3 .name {
+        width: 650px;
+        height: 25px;
+        line-height: 25px;
+        line-height: 20px;
+        font-size: 12px; }
+      .main .main-left .content .msg1 {
+        margin-top: 25px;
+        height: 80px;
+        width: auto; }
+        .main .main-left .content .msg1 .chat1 {
+          padding: 0 10px;
+          width: auto;
+          height: 40px;
+          border: 1px solid #f1f1f1;
+          box-shadow: 2px 2px 1px #d2d2d2;
+          line-height: 40px; }
+      .main .main-left .content .msg2 {
+        margin-top: 10px; }
+        .main .main-left .content .msg2 .chat2 {
+          height: auto;
+          width: auto; }
+          .main .main-left .content .msg2 .chat2 img {
+            box-shadow: 0 0 8px #d2d2d2; }
+      .main .main-left .content .msg3 {
+        margin-top: 20px;
+        width: 100%; }
+        .main .main-left .content .msg3 .img {
+          width: 32px;
+          background: url(../images/chat2.png); }
+        .main .main-left .content .msg3 .name {
+          text-align: right; }
+        .main .main-left .content .msg3 .chat3 {
+          padding: 0 10px;
+          width: auto;
+          height: 40px;
+          border: 1px solid #f1f1f1;
+          box-shadow: 2px 2px 1px #d2d2d2;
+          line-height: 40px;
+          background: #ededf9; }
+    .main .main-left .menu {
+      line-height: 33px;
+      width: auto;
+      height: 33px;
+      background: #f7f7f7;
+      border-top: #d7d7d7;
+      padding-left: 10px; }
+      .main .main-left .menu .emotion, .main .main-left .menu .img, .main .main-left .menu .link, .main .main-left .menu .history {
+        color: #b2b2b2;
+        line-height: 33px;
+        height: 33px;
+        width: 35px;
+        text-align: center;
+        cursor: pointer; }
+      .main .main-left .menu .history {
+        margin-right: 10px;
+        font-size: 18px; }
+    .main .main-left .input {
+      height: 150px; }
+      .main .main-left .input textarea {
+        outline: none;
+        border: none;
+        resize: none; }
+  .main .main-right {
+    margin-top: 20px;
+    width: 359px;
+    padding: 0 20px;
+    height: 803px;
+    border: 1px solid #d7d7d7;
+    border-left: none;
+    background: #fff; }
+    .main .main-right .top {
+      height: 41px;
+      border-bottom: 2px solid #d9d9d9;
+      margin-bottom: 25px; }
+      .main .main-right .top .title {
+        width: 75px;
+        height: 40px;
+        float: left;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        color: #666666;
+        cursor: pointer; }
+      .main .main-right .top .title.h {
+        border-bottom: 2px solid #6663ab; }
+    .main .main-right .content .file {
+      height: 45px;
+      margin-top: 15px; }
+      .main .main-right .content .file .download {
+        width: 80px;
+        height: 30px;
+        background: #ededf9;
+        color: #6663ab;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 4px;
+        margin-top: 5px;
+        cursor: pointer; }
+      .main .main-right .content .file .download:hover {
+        border: 2px solid #b2b2b2;
+        border-left: 1px solid #666666;
+        border-right: 1px solid #666666;
+        background: none;
+        color: #666666; }
+      .main .main-right .content .file .pdf, .main .main-right .content .file .zip {
+        line-height: 37px;
+        font-size: 30px;
+        color: #f26666;
+        margin-right: 10px; }
+      .main .main-right .content .file .zip {
+        color: #f8b466; }
+      .main .main-right .content .file .name {
+        line-height: 20px; }
+      .main .main-right .content .file .time, .main .main-right .content .file .writer {
+        font-size: 12px;
+        color: #b2b2b2; }
+
+/*# sourceMappingURL=community-talk-essence.css.map */
