@@ -35,9 +35,9 @@
                 <div class="search-btn f-r">&#xe600;</div>
             </div>
             <div class="min-nav">
-                <a href="#">阅读</a>|
-                <a href="#">科技社区</a>|
-                <a href="#">专家圈</a>
+                <a href="./wise-read.html">阅读</a>|
+                <a href="./community.html" style='color: #666'>科技社区</a>|
+                <a href="./Experts.html">专家圈</a>
             </div>
 
         </div>
@@ -80,7 +80,7 @@
         <div class="main-right f-r">
             <div class="top">
                 <div class="title h">话题</div>
-                <div class="title">精华</div>
+                <div class="title"><a href="./community-talk-essence.html">精华</a></div>
                 <div class="title">成员</div>
             </div>
             <div class="content">
@@ -145,3 +145,12 @@
     </div>
 </body>
 </html>
+<script>
+	let con = document.querySelectorAll('.content')
+	for(let i = 0 ; i < con.length ; i ++){
+		con[i].onclick = function(){
+			location.href = './wise-read-detail.html'
+		}
+	}
+
+</script>

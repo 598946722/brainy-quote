@@ -37,9 +37,9 @@
                 <div class="search-btn f-r">&#xe600;</div>
             </div>
             <div class="min-nav">
-                <a href="#">阅读</a>|
-                <a href="#">科技社区</a>|
-                <a href="#">专家圈</a>
+                <a href="./wise-read.html">阅读</a>|
+                <a href="./community.html" style='color: #666'>科技社区</a>|
+                <a href="./Experts.html">专家圈</a>
             </div>
 
         </div>
@@ -490,3 +490,12 @@
 </body>
 
 </html>
+<script>
+	let con = document.querySelectorAll('.content')
+	for(let i = 0 ; i < con.length ; i ++){
+		con[i].onclick = function(){
+			location.href = './community-talk.html'
+		}
+	}
+
+</script>
